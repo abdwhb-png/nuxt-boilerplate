@@ -1,0 +1,47 @@
+{
+    "page": {
+        "title": "Home",
+        "description": "Welcome to the Nuxt 3 Starter Template. Build amazing applications with TypeScript, Tailwind CSS, and more."
+    },
+    "home": {
+        "hero": {
+            "title": "Build amazing applications with",
+            "subtitle": "A modern Nuxt 3 starter template with everything you need to build production-ready applications. Features TypeScript, Tailwind CSS, authentication, and more.",
+            "features_title": "Everything you need to get started"
+        },
+        "features": {
+            "typescript": {
+                "title": "TypeScript Ready",
+                "description": "Built with TypeScript for better developer experience and type safety."
+            },
+            "tailwind": {
+                "title": "Tailwind CSS",
+                "description": "Beautiful, responsive design with utility-first CSS framework."
+            },
+            "auth": {
+                "title": "Authentication",
+                "description": "Complete authentication system with login and registration forms."
+            },
+            "i18n": {
+                "title": "Internationalization",
+                "description": "Multi-language support with organized locale structure."
+            },
+            "components": {
+                "title": "UI Components",
+                "description": "Pre-built components with shadcn/ui for consistent design."
+            },
+            "devtools": {
+                "title": "Developer Tools",
+                "description": "ESLint, Prettier, and development tools for better code quality."
+            },
+            "pinia": {
+                "title": "State Management",
+                "description": "Pinia for state management, making it easy to manage application state."
+            }
+        },
+        "cta": {
+            "title": "Ready to start building?",
+            "description": "Get started with our comprehensive starter template and build your next application today."
+        }
+    }
+}

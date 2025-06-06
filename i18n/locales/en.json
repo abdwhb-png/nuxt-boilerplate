@@ -1,0 +1,91 @@
+{
+  "welcome": "Welcome",
+  "layouts": {
+    "title": "Nuxt Starter Application",
+    "description": "A modern Nuxt 3 starter template with TypeScript, Tailwind CSS, and more.",
+    "header": {
+      "title": "Header",
+      "welcomeMessage": "Welcome to our application!",
+      "logoutButton": "Logout"
+    },
+    "footer": {
+      "title": "Footer",
+      "contactInfo": "Contact us at support@example.com"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "download": "Download",
+    "edit": "Edit",
+    "close": "Close",
+    "checkFormErrors": "Please check the form fields errors.",
+    "smw": "Oops! Something went wrong, please try again.",
+    "tbd": "To Be Determined"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "forms": {
+    "required": "This field is required",
+    "invalid": "Please enter a valid value",
+    "saving": "Saving...",
+    "saved": "Saved successfully",
+    "error": "An error occurred"
+  },
+  "toast": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "getStarted": "Get started",
+    "learnMore": "Learn more",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "confirm": "Confirm",
+    "reset": "Reset",
+    "continue": "Continue",
+    "viewDetails": "View details",
+    "goToDashboard": "Go to dashboard",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "messages": {
+    "login": {
+      "welcomeMessage": "Welcome back! Please sign in to your account.",
+      "afterLoginMessage": "You have successfully signed in.",
+      "afterLoginMessageTitle": "Welcome back!",
+      "loginFailed": "Login failed. Please check your credentials and try again."
+    },
+    "register": {
+      "afterRegisterMessage": "Your account has been created successfully.",
+      "afterRegisterMessageTitle": "Welcome aboard!",
+      "registrationFailed": "Registration failed. Please try again later."
+    },
+    "logout": {
+      "afterLogoutMessage": "You have successfully signed out.",
+      "afterLogoutMessageTitle": "Goodbye!",
+      "logoutFailed": "Logout failed. Please try again."
+    },
+    "sessionExpired": {
+      "title": "Session Expired",
+      "message": "Your session has expired. Please refresh the page and sign in again."
+    }
+  }
+}

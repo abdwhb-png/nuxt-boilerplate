@@ -1,3 +1,7 @@
 export default defineAppConfig({
-  appName: "My Boilerplate App",
+  appName: "Nuxt Starter",
+  icon: {
+    mode: "css",
+    cssLayer: "base",
+  },
 });

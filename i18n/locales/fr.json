@@ -1,0 +1,92 @@
+{
+  "welcome": "Welcome",
+  "TBD": "A déterminer",
+  "layouts": {
+    "title": "Nuxt Starter Application",
+    "description": "Une application de démarrage moderne Nuxt 3 avec TypeScript, Tailwind CSS et plus.",
+    "header": {
+      "title": "En-tête",
+      "welcomeMessage": "Bienvenue dans notre application!",
+      "logoutButton": "Se déconnecter"
+    },
+    "footer": {
+      "title": "Pied de page",
+      "contactInfo": "Contactez-nous au support{'@'}example.com"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "download": "Télécharger",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "checkFormErrors": "Veuillez vérifier les erreurs dans les champs du formulaire.",
+    "smw": "Oups ! Quelque chose s'est mal passé, veuillez réessayer.",
+    "tbd": "À déterminer"
+  },
+  "navigation": {
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "forms": {
+    "required": "Ce champ est requis",
+    "invalid": "Veuillez entrer une valeur valide",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré avec succès",
+    "error": "Une erreur s'est produite"
+  },
+  "toast": {
+    "success": "Succès",
+    "error": "Erreur",
+    "warning": "Avertissement",
+    "info": "Information"
+  },
+  "buttons": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "submit": "Soumettre",
+    "loading": "Chargement...",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus",
+    "back": "Retour",
+    "next": "Suivant",
+    "previous": "Précedent",
+    "confirm": "Confirmer",
+    "reset": "Réinitialiser",
+    "continue": "Continuer",
+    "viewDetails": "Voir les détails",
+    "goToDashboard": "Aller au tableau de bord",
+    "login": "Se connecter",
+    "register": "S'inscrire",
+    "logout": "Se déconnecter"
+  },
+  "messages": {
+    "login": {
+      "welcomeMessage": "Bienvenue ! Veuillez vous connecter à votre compte.",
+      "afterLoginMessage": "Vous êtes connecté avec succès.",
+      "afterLoginMessageTitle": "Bon retour !",
+      "loginFailed": "La connexion a échoué. Veuillez vérifier vos identifiants et réessayer."
+    },
+    "register": {
+      "afterRegisterMessage": "Votre compte a été créé avec succès.",
+      "afterRegisterMessageTitle": "Bienvenue à bord !",
+      "registrationFailed": "L'inscription a échoué. Veuillez réessayer plus tard."
+    },
+    "logout": {
+      "afterLogoutMessage": "Vous êtes déconnecté avec succès.",
+      "afterLogoutMessageTitle": "Aurevoir !",
+      "logoutFailed": "La déconnexion a échoué. Veuillez réessayer."
+    },
+    "sessionExpired": {
+      "title": "Session Expirée",
+      "message": "Votre session a expiré. Veuillez vous reconnecter."
+    }
+  }
+}

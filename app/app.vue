@@ -1,12 +1,19 @@
 <script setup lang="ts">
-const appConfig = useAppConfig();
+const route = useRoute();
+const {appName} = useApp();
 const toastStore = useToastStore();
+const { $t, $has } = useI18n();
 
 useHead({
   titleTemplate(title) {
-    return title ? `%s - ${appConfig.appName}` : appConfig.appName;
+    return title ? `%s - ${appName.value}` : appName.value;
   },
 });
+
+useSeoMeta({
+  title: $has(route.meta.title as string) ? $t(route.meta.title as string) : appName.value,
+  description: $has(route.meta.description as string) ? getTranslation(route.meta.description as string) : getTranslation("layouts.description"),
+})
 
 watch(
   () => [...toastStore.bus], // Create a new array reference for watching
@@ -26,7 +33,6 @@ watch(
 
 <template>
   <NuxtLoadingIndicator />
-
   <UApp>
     <NuxtLayout>
       <NuxtPage />

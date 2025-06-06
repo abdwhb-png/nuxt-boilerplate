@@ -1,0 +1,47 @@
+{
+    "page": {
+        "title": "Accueil",
+        "description": "Bienvenue dans le template de démarrage Nuxt 3. Créez des applications incroyables avec TypeScript, Tailwind CSS, et plus encore."
+    },
+    "home": {
+        "hero": {
+            "title": "Créez des applications incroyables avec",
+            "subtitle": "Un template de démarrage Nuxt 3 moderne avec tout ce dont vous avez besoin pour créer des applications prêtes pour la production. Inclut TypeScript, Tailwind CSS, authentification, et plus encore.",
+            "features_title": "Tout ce dont vous avez besoin pour commencer"
+        },
+        "features": {
+            "typescript": {
+                "title": "TypeScript Ready",
+                "description": "Construit avec TypeScript pour une meilleure expérience développeur et la sécurité des types."
+            },
+            "tailwind": {
+                "title": "Tailwind CSS",
+                "description": "Design beau et responsive avec le framework CSS utility-first."
+            },
+            "auth": {
+                "title": "Authentification",
+                "description": "Système d'authentification complet avec formulaires de connexion et d'inscription."
+            },
+            "i18n": {
+                "title": "Internationalisation",
+                "description": "Support multi-langues avec structure de locales organisée."
+            },
+            "components": {
+                "title": "Composants UI",
+                "description": "Composants pré-construits avec shadcn/ui pour un design cohérent."
+            },
+            "devtools": {
+                "title": "Outils Développeur",
+                "description": "ESLint, Prettier, et outils de développement pour une meilleure qualité de code."
+            },
+            "pinia": {
+                "title": "Gestion d'État",
+                "description": "Pinia pour la gestion d'état, facilitant la gestion de l'état de l'application."
+            }
+        },
+        "cta": {
+            "title": "Prêt à commencer à construire ?",
+            "description": "Commencez avec notre template de démarrage complet et créez votre prochaine application dès aujourd'hui."
+        }
+    }
+}

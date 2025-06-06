@@ -1,0 +1,44 @@
+{
+  "login": {
+    "title": "Sign In",
+    "subtitle": "Welcome back! Please sign in to your account.",
+    "email": "Email Address",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signIn": "Sign In",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Get started with your new account.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "createAccount": "Create Account",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "forgotPassword": {
+    "title": "Forgot Password",
+    "subtitle": "Enter your email to reset your password.",
+    "email": "Email Address",
+    "sendLink": "Send Reset Link",
+    "backToLogin": "Back to login"
+  },
+  "resetPassword": {
+    "title": "Reset Password",
+    "subtitle": "Enter your new password.",
+    "password": "New Password",
+    "confirmPassword": "Confirm Password",
+    "resetPassword": "Reset Password"
+  },
+  "verifyEmail": {
+    "title": "Verify Email",
+    "subtitle": "Please check your email and click the verification link.",
+    "resend": "Resend verification email",
+    "logout": "Logout"
+  }
+}
